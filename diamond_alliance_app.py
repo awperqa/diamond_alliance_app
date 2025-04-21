@@ -154,7 +154,7 @@ def get_fund():
 
 target_count = 80
 count = 0
-result = login("2715446601@qq.com",'dt123456789')
+result = login("xxxxx",'xxxxxxx')
 session.headers.update({'Authorization': 'Bearer ' + result})
 print(get_fund())
 
